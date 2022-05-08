@@ -7,7 +7,11 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="615.0" style="-fx-background-color: #FCF3CF;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="615.0"
+            style="-fx-background-color: #FCF3CF;"
+            xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button alignment="CENTER" layoutX="346.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" style="-fx-background-color: #FFD700;" text="Login" textFill="#212222">
          <effect>
