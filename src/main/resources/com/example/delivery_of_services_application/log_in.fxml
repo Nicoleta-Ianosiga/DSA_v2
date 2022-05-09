@@ -11,9 +11,12 @@
             minHeight="-Infinity" minWidth="-Infinity"
             prefHeight="400.0" prefWidth="615.0"
             style="-fx-background-color: #FCF3CF;"
-            xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+            xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.delivery_of_services_application.controllers.LoginController"
+>
    <children>
-      <Button alignment="CENTER" layoutX="346.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" style="-fx-background-color: #FFD700;" text="Login" textFill="#212222">
+      <Button alignment="CENTER" layoutX="346.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" style="-fx-background-color: #FFD700;" text="Login" textFill="#212222"
+      fx:id="loginButton" >
          <effect>
             <InnerShadow>
                <color>
@@ -70,7 +73,8 @@
             <DropShadow />
          </effect>
       </Label>
-      <Button layoutX="423.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: #FFD700;" text="Cancel" textFill="RED">
+      <Button layoutX="423.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: #FFD700;" text="Cancel" textFill="RED"
+      fx:id="cancelButton" >
          <effect>
             <InnerShadow>
                <color>
@@ -78,7 +82,8 @@
                </color>
             </InnerShadow>
          </effect></Button>
-      <Button layoutX="346.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" style="-fx-background-color: #FFD700;" text="Registration" textFill="#171717">
+      <Button layoutX="346.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" style="-fx-background-color: #FFD700;" text="Registration" textFill="#171717"
+      fx:id="registrationButton" onAction="#registrationButtonOnAction">
          <effect>
             <InnerShadow>
                <color>
